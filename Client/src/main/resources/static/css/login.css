@@ -1,0 +1,44 @@
+.alert {
+    margin: 0 20%;
+    width: 100%;
+    height: fit-content;
+    padding: 0;
+  }
+
+  .alert p {
+    color: red;
+    text-align: center;
+    font-weight: 500;
+    margin: 0;
+  }
+#form{
+  width: 100%;
+  padding: 0 30em ;
+  margin-right: auto;
+  margin-left: auto;
+}
+  .form-container {
+    /* background-color: rgba(255, 255, 255,0.8); */
+    margin-top: 30px !important;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    padding: 2em 2em;
+    /* margin-bottom: 20vh; */
+    -webkit-box-shadow: -1px -1px 10px 6px rgba(87, 87, 87, 0.23);
+    -moz-box-shadow: -1px -1px 10px 6px rgba(87, 87, 87, 0.23);
+    box-shadow: -1px -1px 10px 6px rgba(87, 87, 87, 0.43);
+  }
+  input[type=text], select, textarea,input[type=email] {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+#toReg{
+  text-align: center;
+}

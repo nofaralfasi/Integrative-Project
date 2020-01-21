@@ -1,0 +1,39 @@
+.form {
+    width: 17rem;
+    line-height: 1.6;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.currency,
+.airport ,
+.route{
+    padding: 1em 0;
+    margin-top: 2em;
+    min-height: 450px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.locat {
+    display: flex;
+    /* 2. display flex to the rescue */
+    flex-direction: row;
+    margin: 0 1px;
+}
+
+/* label,
+input {
+    display: block;
+    /* 1. oh noes, my inputs are styled as block... */
+/* }  */
+.page{
+    display: flex;
+}
+input[type="text"] {
+    display: inline;
+    flex-direction: row;
+}

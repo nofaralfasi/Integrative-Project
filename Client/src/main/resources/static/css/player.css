@@ -1,0 +1,92 @@
+/* .backgroundimg {
+  background-image: url("../Images/airplane.jpg");
+  background-size: 100% 100% 100%;
+  background-position: center center;
+  background-repeat: repeat-y;
+  width: 100%;
+} */
+
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map {
+  height: 700px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 1em 5em;
+
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#floating-panel {
+  position: absolute;
+  top: 10px;
+  left: 25%;
+  z-index: 5;
+  background-color: #fff;
+  padding: 5px;
+  /* border: 1px solid #999; */
+  text-align: center;
+  font-family: "Roboto", "sans-serif";
+  line-height: 30px;
+  padding-left: 10px;
+  margin-left: 10rem !important;
+}
+
+/* .OrigingAndDestination {
+  margin-left: 10px;
+} */
+#showFlights {
+  width: 10em;
+}
+
+.flightHeader label,
+.flightHeader button,
+.destination label,
+.destination button {
+  /* margin-right: 1em; */
+  display: inline-block;
+  /*Add this*/
+}
+
+.origin,
+.destination {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.origin input,
+.destination input {
+  width: 10em;
+}
+
+.form-control {
+  display: inline-block !important;
+}
+
+h1,
+h3 {
+  font-weight: 700;
+}
+.flightHeader  .labelOrigDest {
+  float:right;
+  margin: 0 1em;
+}
+.page {
+  background: rgba(255, 255, 255, 0.8);
+  margin: 1em 5em;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+}
+.page .flightHeader h1{
+  text-align: center;
+}
+#selectCurrency{
+  margin-top:1em;
+}

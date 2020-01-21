@@ -1,0 +1,242 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="windows-1255"/>
+  <title>Login | Online Shop</title>
+  <meta charset="utf-8"/>
+  <!--  <meta name="google-signin-client_id" content="352172326703-08i2u5qf4kopk4tpsjbtn2f1dhj4pl9c.apps.googleusercontent.com">-->
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap" rel="stylesheet">
+  <link href="assets/img/brand/favicon.png" rel="icon" type="image/png">
+  <link href="assets/vendor/nucleo/css/nucleo.css" rel="stylesheet">
+  <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link type="text/css" href="assets/css/argon.css?v=1.1.0" rel="stylesheet">
+  <link type="text/css" href="assets/css/style.css?v=1.1.0" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/index1.css"/>
+
+</head>
+
+<body>
+
+<div id="login">
+  <div class="alert alert-danger col-12" role="alert" style="display:none;" id="alertMsg">
+    <p>Email format is not correct, try again.</p>
+  </div>
+  <div class="alert alert-danger col-12" role="alert" style="display:none;" id="alertMsgNet">
+    <p>
+      Something is wrong with the domain <strong>or</strong> the email,
+      please try again, if it does not work connect administrator
+    </p>
+  </div>
+  <div class="alert alert-danger col-12" role="alert" style="display:none;" id="alertMsgEmptyMail">
+    <p>Please enter a valid Email</p>
+  </div>
+
+
+  <main>
+    <section class="section section-shaped section-lg">
+      <div class="shape shape-style-1 bg-gradient-default">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="container pt-lg-md">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <div class="card bg-secondary shadow border-0">
+              <div class="card-header bg-white pb-5">
+                <div class="text-muted text-center mb-3">
+                  <small>Sign in with</small>
+                </div>
+                <div class="btn-wrapper text-center g-signin2" data-onsuccess="onSignIn">
+                  <a href="#" class="btn btn-neutral btn-icon">
+                    <span class="btn-inner--icon">
+                      <img alt="image" src="assets/img/icons/common/google.svg">
+                    </span>
+                    <span class="btn-inner--text">Google</span>
+                  </a>
+                </div>
+              </div>
+              <div class="card-body px-lg-5 py-lg-5">
+                <div class="text-center text-muted mb-4">Or sign in with credentials</div>
+
+                <div id="form">
+                  <!-- form start -->
+                  <form>
+                    <div class="form-group">
+
+                      <div class="form-group mb-3">
+                        <div class="input-group input-group-alternative">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="ni ni-email-83"></i></span>
+                          </div>
+                          <input id="InputEmail" class="form-control" placeholder="Email" type="email" aria-describedby="emailHelp">
+                          <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+                          <div class="invalid-feedback" id="email-feedback" style="display: none">Please provide a valid email.</div>
+                        </div>
+                      </div>
+
+                    </div>
+
+                    <div class="form-group">
+                      <div class="input-group input-group-alternative">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text"><i class="ni ni-world-2"></i></span>
+                        </div>
+                        <input name="Domain" id="inputDomain" type="text" class="form-control" aria-describedby="domainHelp"
+                               placeholder="Domain"/>
+                      </div>
+                    </div>
+
+
+                    <div class="form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1"/>
+                      <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                    </div>
+                    <button id="submit" type="submit" class="btn btn-block btn-primary my-4 bg-primary">Login</button>
+                    <div id="toReg">
+                      <small id='register'>Don't have an account? <a href="./register.html">Sign up </a></small>
+                    </div>
+                  </form>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</div>
+
+<div clas="about-us">
+  <header class="bg-primary text-center py-5 mb-4">
+    <div class="container">
+      <h1 class="font-weight-light text-white">Integrative Software Engineering Course Project</h1>
+    </div>
+  </header>
+
+  <!-- Page Content -->
+  <div class="container">
+    <div class="row">
+      <!-- Team Member 1 -->
+      <div class="col-xl-5 col-md-5 col-xl-5 mb-4 lefti">
+        <div class="card border-1 shadow">
+          <div class="dtl09">
+            <img src="./Images/nofar.png" class="card-img-top hvr-ripple-out " alt="..." height="270px">
+            <div class="dtl white">
+              <h2>Nofar Alfasi </h2>
+              <h4>Nuclear weapon developer<br>Forever Young<br>
+              </h4>
+            </div>
+          </div>
+          <div class="card-body text-center">
+            <h3 class="card-title mb-0">Nofar Alfasi </h3>
+            <div class="card-text text-black-50">Unicorn</div>
+            <div class="social">
+              <a href="https://www.linkedin.com/in/nofar-alfasi/" target="_blank" data-toggle="tooltip" title="Add me on Linkedin"><i class="fa fa-linkedin"></i></a>
+              <a target="_blank" data-toggle="tooltip" title="Star me on Github" href="https://github.com/nofaralfasi"><i class="fa fa-github"></i></a>
+              <a href="" data-toggle="tooltip" title="Visit me on Bitbucket"><i class="fa fa-bitbucket"></i></a>
+              <a href="" data-toggle="tooltip" title="Follow me on Trello"><i class="fa fa-trello"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Team Member 2 -->
+      <div class="col-xl-5 col-md-5 col-xl-5 mb-4 righti">
+        <div class="card border-1 shadow">
+          <div class="dtl09">
+            <img src="./Images/yuval.png" class="card-img-top hvr-ripple-out " alt="..." height="270px">
+            <div class="dtl white">
+              <h2>Yuval Bar Nahor </h2>
+              <h4>Engaged to Gali<br>Top 10!</h4>
+            </div>
+          </div>
+          <div class="card-body text-center">
+            <h3 class="card-title mb-0">Yuval Bar Nahor</h3>
+            <div class="card-text text-black-50">Best Man</div>
+            <div class="social">
+              <a href="https://www.linkedin.com/in/yuval-bar-nahor-4424bb171/" target="_blank" data-toggle="tooltip" title="Add me on Linkedin"><i class="fa fa-linkedin"></i></a>
+              <a target="_blank" data-toggle="tooltip" title="Star me on Github" href="https://github.com/nofaralfasi"><i class="fa fa-github"></i></a>
+              <a href="" data-toggle="tooltip" title="Visit me onBitbucket"><i class="fa fa-bitbucket"></i></a>
+              <a href="" data-toggle="tooltip" title="Follow me on Trello"><i class="fa fa-trello"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<footer class="footer has-cards">
+  <div class="container">
+    <div class="row row-grid align-items-center my-md">
+      <div class="col-lg-6">
+        <h3 class="text-primary font-weight-light mb-2">Thank you for your interest!</h3>
+        <h4 class="mb-0 font-weight-light">Let's get in touch on any of these platforms.</h4>
+      </div>
+      <div class="col-lg-6 text-lg-center btn-wrapper">
+        <a href="#" class="btn btn-neutral btn-icon-only btn-twitter btn-round btn-lg" data-toggle="tooltip" data-original-title="Follow us">
+          <i class="fa fa-twitter"></i>
+        </a>
+        <a href="#" class="btn btn-neutral btn-icon-only btn-facebook btn-round btn-lg" data-toggle="tooltip" data-original-title="Like us">
+          <i class="fa fa-facebook-square"></i>
+        </a>
+        <a href="#" class="btn btn-neutral btn-icon-only btn-dribbble btn-lg btn-round" data-toggle="tooltip" data-original-title="Follow us">
+          <i class="fa fa-dribbble"></i>
+        </a>
+        <a href="#" class="btn btn-neutral btn-icon-only btn-github btn-round btn-lg" data-toggle="tooltip" data-original-title="Star on Github">
+          <i class="fa fa-github"></i>
+        </a>
+      </div>
+    </div>
+    <hr>
+    <div class="row align-items-center justify-content-md-between">
+      <div class="col-md-6">
+        <div class="copyright">
+          &copy;2020A <a href="" target="_blank">Integrative Software Engineering</a>.
+        </div>
+      </div>
+      <div class="col-md-6">
+        <ul class="nav nav-footer justify-content-end">
+          <li class="nav-item">
+            <a href="" class="nav-link" target="_blank">Nofar & Yuval Course Project</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!--scripts were here before -->
+<script src="js/index.js"></script>
+<script src="js/common.js"></script>
+
+<!--scripts I added-->
+<!--<script src="https://apis.google.com/js/platform.js" async defer></script>-->
+
+<!-- Core -->
+<script src="assets/vendor/jquery/jquery.min.js"></script>
+<script src="assets/vendor/popper/popper.min.js"></script>
+<script src="assets/vendor/bootstrap/bootstrap.min.js"></script>
+<script src="assets/vendor/headroom/headroom.min.js"></script>
+<!-- Argon JS -->
+<script src="assets/js/argon.js?v=1.1.0"></script>
+<script src="assets/js/main.js?v=1.1.0"></script>
+
+</body>
+
+</html>
