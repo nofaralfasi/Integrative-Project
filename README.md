@@ -1,6 +1,5 @@
-# Integrative-Project
+# Integrative Software Engineering Project
 
-## 
 ### Login Page
 ![index](https://user-images.githubusercontent.com/38184193/92412539-e1704680-f154-11ea-95b3-ee496c562c0b.png)
 
